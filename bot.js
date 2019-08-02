@@ -36,32 +36,26 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'total shock fills your body') {
-    	message.reply('oh no its you again');
+    if (message.content === 'turn around and look up') {
+    	message.reply('total shock fills your body');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'i could never forget those eyes eyes eyes') {
-    	message.reply('eyes eyes eyes');
+    if (message.content === 'oh, no, its you again') {
+    	message.reply('i can never forget those eyes eyes eyes');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'cuz baby tonight') {
-    	message.reply('the creepers trying to steal all our stuff agains');
+    if (message.content === 'eyes eyes eyes') {
+    	message.reply('cuz baby tonight');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'because baby tonight') {
-    	message.reply('the creepers trying to steal all our stuff again');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'cause baby tonight') {
-    	message.reply('the creepers trying to steal all our stuff again');
+    if (message.content === 'the creepers trying to steal all our stuff again') {
+    	message.reply('sorry but thou shalt not continue');
   	}
 });
 
