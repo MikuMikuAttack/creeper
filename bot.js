@@ -29,5 +29,41 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'heads up') {
+    	message.reply('you hear a sound');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'total shock fills your body') {
+    	message.reply('oh no its you again');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'i could never forget those eyes eyes eyes,') {
+    	message.reply('eyes eyes eyes');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'cuz baby tonight,') {
+    	message.reply('the creepers trying to steal all our stuff agains');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'because baby tonight,') {
+    	message.reply('the creepers trying to steal all our stuff again');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'cause baby tonight,') {
+    	message.reply('the creepers trying to steal all our stuff again');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
