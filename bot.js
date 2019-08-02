@@ -42,7 +42,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'i could never forget those eyes eyes eyes,') {
+    if (message.content === 'i could never forget those eyes eyes eyes') {
     	message.reply('eyes eyes eyes');
   	}
 });
