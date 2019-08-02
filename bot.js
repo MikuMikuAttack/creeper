@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const config = require('./config.json');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -62,12 +63,6 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'the creepers trying to steal our stuff again') {
     	message.reply('sorry but thou shalt not continue');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'creeper!fuck') {
-    	message.reply('no, fuck you');
   	}
 });
 
