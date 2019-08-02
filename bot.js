@@ -17,5 +17,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'side side to side') {
+    	message.reply('this task a grueling one');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'hope to find some diamonds tonight night night') {
+    	message.reply('diamonds tonight');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
