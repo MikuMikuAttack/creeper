@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'creeper') {
-    	message.reply('aw man');
+    	message.channel.send('aw man');
   	}
 });
 
