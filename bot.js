@@ -12,6 +12,24 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === 'CREEPER') {
+    	message.channel.send('aw man');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '**creeper**') {
+    	message.channel.send('aw man');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '**CREEPER**') {
+    	message.channel.send('aw man');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === 'so we back in the mine') {
     	message.channel.send('got our pickaxe swinging from side to side');
   	}
@@ -74,13 +92,6 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'c!ask does tus love ganny?') {
     	message.channel.send('i would say 50% yes and 50% no');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'c!help') {
-    	message.channel.send('no')
-                            ('a');
   	}
 });
 
