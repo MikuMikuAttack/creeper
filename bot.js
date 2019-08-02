@@ -48,19 +48,19 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'cuz baby tonight,') {
+    if (message.content === 'cuz baby tonight') {
     	message.reply('the creepers trying to steal all our stuff agains');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'because baby tonight,') {
+    if (message.content === 'because baby tonight') {
     	message.reply('the creepers trying to steal all our stuff again');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'cause baby tonight,') {
+    if (message.content === 'cause baby tonight') {
     	message.reply('the creepers trying to steal all our stuff again');
   	}
 });
