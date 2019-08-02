@@ -13,61 +13,61 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'so we back in the mine') {
-    	message.reply('got our pickaxe swinging from side to side');
+    	message.channel.send('got our pickaxe swinging from side to side');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'side side to side') {
-    	message.reply('this task a grueling one');
+    	message.channel.send('this task a grueling one');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'hope to find some diamonds tonight night night') {
-    	message.reply('diamonds tonight');
+    	message.channel.send('diamonds tonight');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'heads up') {
-    	message.reply('you hear a sound');
+    	message.channel.send('you hear a sound');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'turn around and look up') {
-    	message.reply('total shock fills your body');
+    	message.channel.send('total shock fills your body');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'oh no its you again') {
-    	message.reply('i can never forget those eyes eyes eyes');
+    	message.channel.send('i can never forget those eyes eyes eyes');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'eyes eyes eyes') {
-    	message.reply('cuz baby tonight');
+    	message.channel.send('cuz baby tonight');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'the creepers trying to steal all our stuff again') {
-    	message.reply('sorry but thou shalt not continue');
+    	message.channel.send('sorry but thou shalt not continue');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'the creepers trying to steal our stuff again') {
-    	message.reply('sorry but thou shalt not continue');
+    	message.channel.send('sorry but thou shalt not continue');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'hi') {
-    	message.reply('hi!');
+    	message.channel.send('hi!');
   	}
 });
 
