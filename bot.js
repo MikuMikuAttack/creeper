@@ -80,7 +80,7 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'c!help') {
     	message.channel.send('a'
-                            + 'o');
+                            'o');
   	}
 });
 
