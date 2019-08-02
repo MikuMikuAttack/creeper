@@ -71,5 +71,18 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'c!ask does tus love ganny?') {
+    	message.channel.send('i would say 50% yes and 50% no');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'c!help') {
+    	message.channel.send('a'
+                            + 'o');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot 
