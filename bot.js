@@ -18,18 +18,6 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '**creeper**') {
-    	message.channel.send('aw man');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === '**CREEPER**') {
-    	message.channel.send('aw man');
-  	}
-});
-
-client.on('message', message => {
     if (message.content === 'so we back in the mine') {
     	message.channel.send('got our pickaxe swinging from side to side');
   	}
